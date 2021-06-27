@@ -97,6 +97,7 @@ li:hover{
     border-radius: 9px;
     color: white;
     border: 3px solid white;
+    /* overflow: scroll; */
   }
   
   
@@ -125,10 +126,20 @@ li:hover{
     align-items: center;
     flex-wrap: wrap;
   }
-  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  ::placeholder { 
     color: rgb(201, 194, 194);
-    opacity: 1; /* Firefox */
+    opacity: 1;
   }
   .spa{
     margin-right: 5px;
+  }
+
+
+  @media (max-width:420px){
+    li{
+      padding:20px 7px;
+    }
+    .card{
+      overflow: scroll;
+    }
   }
