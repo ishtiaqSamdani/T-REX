@@ -135,7 +135,7 @@ li:hover{
   }
 
 
-  @media (max-width:421px){
+  @media (max-width:450px){
     li{
       padding:20px 7px;
     }
