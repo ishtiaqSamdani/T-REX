@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: "Nunito",sans-serif;
+    background:black;
+    color: #e7e7e7;
+  }
+  header::before{
+    background: url('https://source.unsplash.com/1600x900/?scenery,nature') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.navi {
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding: 20px 23px;
+}
+li:hover{
+    cursor: pointer;
+    color:aqua;
+    text-shadow: 1px 1px 2px black;
+    transition: all 0.3s;
+}
+  
+  .input{
+    text-align: center;
+    margin: 100px auto;
+  }
+  
+  input[type="submit"]{
+    padding: 13px 30px;
+    background: transparent;
+    border: none;
+    border-radius: 9px;
+    font-family: "Nunito",sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: 3px solid white;
+    color: white;
+  }
+  
+  .input input[type="text"]{
+    color:white;
+    border: 3px solid white;
+    width: 20rem;
+    height: 55px;
+    padding: 5px 10px;
+    background: transparent;
+    /* border: none; */
+    border-radius: 9px;
+    font-family: "Nunito",sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    flex-shrink: 2;
+  }
+  .input input[type="date"]{
+    color: #e7e7e7;
+    border: 3px solid white;
+    width: 20rem;
+    height: 55px;
+    padding: 5px 10px;
+    background: transparent;
+    /* border: none; */
+    border-radius: 9px;
+    font-family: "Nunito",sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+  }
+  ::-webkit-calendar-picker-indicator {
+    filter: invert(100%);
+}
+  
+  .card{
+    width: 50%;
+    background: transparent;
+    height: 40vh;
+    margin: 50px auto;
+    border-radius: 9px;
+    color: white;
+    border: 3px solid white;
+  }
+  
+  
+  .close{
+    float: right;
+    margin-top: -2px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .card h1{
+    padding: 5px 0;
+    text-align: center;
+  }
+  
+  .card p{
+    text-align: center;
+    margin:40px 0;
+    font-size:20px;
+  }
+
+  .flexy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(201, 194, 194);
+    opacity: 1; /* Firefox */
+  }
+  .spa{
+    margin-right: 5px;
+  }
